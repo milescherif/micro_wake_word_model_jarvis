@@ -1,15 +1,15 @@
 {
   "type": "micro",
   "wake_word": "jarvis",
-  "author": "Local",
-  "version": 1,
-  "model": "https://github.com/milescherif/micro_wake_word_model_jarvis/blob/main/jarvees.tflite",
+  "author": "Miles",
+  "website": "https://github.com/milescherif/micro_wake_word_model_jarvis/blob/main/jarvees.tflite",
+  "model": "stream_state_internal_quant.tflite",
+  "version": 2,
   "micro": {
-    "probability_cutoff": 0.9,
+    "probability_cutoff": 0.97,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 22860,
     "minimum_esphome_version": "2024.7"
   }
-
 }
