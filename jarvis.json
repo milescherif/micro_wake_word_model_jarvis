@@ -3,7 +3,7 @@
   "wake_word": "jarvis",
   "author": "Local",
   "version": 1,
-  "model": "jarvees.tflite",
+  "model": "https://github.com/milescherif/micro_wake_word_model_jarvis/blob/main/jarvees.tflite",
   "micro": {
     "probability_cutoff": 0.9,
     "sliding_window_size": 5,
@@ -11,4 +11,5 @@
     "tensor_arena_size": 22860,
     "minimum_esphome_version": "2024.7"
   }
+
 }
