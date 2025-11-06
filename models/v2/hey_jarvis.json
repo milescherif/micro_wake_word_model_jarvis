@@ -1,9 +1,9 @@
 {
   "type": "micro",
-  "wake_word": "Hey Jarvis",
-  "author": "Kevin Ahrendt",
-  "website": "https://www.kevinahrendt.com/",
-  "model": "hey_jarvis.tflite",
+  "wake_word": "Jarvis",
+  "author": "Miles Cherif",
+  "website": "https://github.com/milescherif",
+  "model": "jarvees.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
