@@ -2,8 +2,8 @@
   "type": "micro",
   "wake_word": "jarvis",
   "author": "Miles",
-  "website": "https://github.com/milescherif/micro_wake_word_model_jarvis/blob/main/jarvees.tflite",
-  "model": "stream_state_internal_quant.tflite",
+  "website": "https://github.com/milescherif/micro_wake_word_model_jarvis",
+  "model": "jarvees.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
