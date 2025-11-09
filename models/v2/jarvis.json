@@ -3,8 +3,8 @@
   "wake_word": "Jarvis",
   "author": "Miles Cherif",
   "website": "https://github.com/milescherif",
-  "model": "jarvees.tflite",
-  "trained_languages": ["en"],
+  "model": "jarvis.tflite",
+  "trained_languages": ["fr"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
